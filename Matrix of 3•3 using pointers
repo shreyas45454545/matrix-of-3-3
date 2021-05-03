@@ -1,0 +1,127 @@
+
+home
+Front End
+HTML
+CSS
+JavaScript
+HTML5
+Schema.org
+php.js
+Twitter Bootstrap
+Responsive Web Design tutorial
+Zurb Foundation 3 tutorials
+Pure CSS
+HTML5 Canvas
+JavaScript Course
+Icon
+Angular
+React
+Vue
+Jest
+Mocha
+NPM
+Yarn
+Back End
+PHP
+Python
+Java
+Node.js
+Ruby
+C programming
+PHP Composer
+Laravel
+PHPUnit
+ASP.NET
+Database
+SQL(2003 standard of ANSI)
+MySQL
+PostgreSQL
+SQLite
+NoSQL
+MongoDB
+Oracle
+Redis
+Apollo GraphQL
+API
+Google Plus API
+Youtube API
+Google Maps API
+Flickr API
+Last.fm API
+Twitter REST API
+Data Interchnage
+XML
+JSON
+Ajax
+Exercises
+HTML CSS Exercises
+JavaScript Exercises
+jQuery Exercises
+jQuery-UI Exercises
+CoffeeScript Exercises
+PHP Exercises
+Python Exercises
+C Programming Exercises
+C# Sharp Exercises
+Java Exercises
+SQL Exercises
+Oracle Exercises
+MySQL Exercises
+SQLite Exercises
+PostgreSQL Exercises
+MongoDB Exercises
+Twitter Bootstrap Examples
+Euler Project
+Others
+Excel Tutorials
+Useful tools
+Google Docs Forms Templates
+Google Docs Slide Presentations
+Number Conversions
+Linux Tutorials
+Quizzes
+Articles
+C Exercises: Read a 2D array of size 3x3 and print the matrix
+Last update on February 26 2020 08:07:30 (UTC/GMT +8 hours)
+
+ 
+C Array: Exercise-18 with Solution
+Write a program in C for a 2D array of size 3x3 and print the matrix.
+
+Pictorial Presentation:
+
+C Exercises: Read a 2D array of size 3x3 and print the matrix
+Sample Solution:
+
+C Code:
+
+#include <stdio.h>
+
+void main()
+{
+  int arr1[3][3],i,j;
+  
+       printf("\n\nRead a 2D array of size 3x3 and print the matrix :\n");
+       printf("------------------------------------------------------\n");  
+  
+ 
+    /* Stored values into the array*/
+       printf("Input elements in the matrix :\n");
+  for(i=0;i<3;i++)
+  {
+      for(j=0;j<3;j++)
+      {
+	      printf("element - [%d],[%d] : ",i,j);
+	      scanf("%d",&arr1[i][j]);
+      }
+  }  
+ 
+ printf("\nThe matrix is : \n");
+  for(i=0;i<3;i++)
+  {
+      printf("\n");
+      for(j=0;j<3;j++)
+           printf("%d\t",arr1[i][j]);
+  }
+ printf("\n\n");
+}
